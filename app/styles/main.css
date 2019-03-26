@@ -1,0 +1,444 @@
+body {
+  font-family: "Roboto", "Helvetica", sans-serif;
+  /* background-color: #e4e5e7; */
+  /* margin: 0;
+  padding: 0; */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main-menu {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+  width: 1400px;
+  height: 90px;
+  border-radius: 5px 5px 0 0;
+  background-color: #ffffff;
+  padding-top: 32;
+  padding-bottom: 32;
+  /* background-color: aquamarine */
+  /* height: 146px; */
+}
+
+.menu {
+  /* background-color: grey; */
+  display: flex;
+  flex-direction: row;
+  margin-right: 140px;
+}
+
+.menu-item {
+  /* color: #343e5c; */
+  /* font-family: Montserrat; */
+  color: #343e5c;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  font-size: 14px;
+  font-weight: 400;
+  margin-right: 29px;
+}
+
+.menu-btn {
+  /* Style for "Menu Icon" */
+  width: 20px;
+  height: 14px;
+  margin-left: 115px;
+  margin-right: 115px;
+  /* background-color: #3e425a; */
+}
+
+.logo {
+  width: 92px;
+  height: 25px;
+  margin-right: 157px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column
+}
+
+.cart {
+  /* background-color: red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-icon {
+
+  /* Style for "Shopping C" */
+  width: 18px;
+  height: 17px;
+  margin-right: 8px;
+}
+
+.cart-title {
+
+  color: #343e5c;
+  font-family: Montserrat;
+  font-size: 11px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  /* Text style for "C, art" */
+  letter-spacing: 0.55px;
+  margin-right: 7px;
+}
+
+.cart-quantity-container {
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+  background-color: #e3e8f0;
+  margin-right: 29px;
+
+}
+
+.cart-container {
+  margin-right: 30px;
+}
+
+.cart-quantity {
+
+  width: 24px;
+  height: 24px;
+  font-weight: 400;
+  border-radius: 12px;
+  background-color: #e3e8f0;
+  text-align: center;
+  line-height: 24px;
+  vertical-align: middle;
+  height: 100%;
+  /* line-height: 90px; */
+}
+
+.sign-in {
+  /* Style for "Button" */
+  width: 85px;
+  height: 32px;
+  border-radius: 16px;
+  border: 2px solid #e3e8f0;
+  color: #343e5c;
+  font-family: Montserrat;
+  font-size: 11px;
+  font-weight: 400;
+  text-transform: uppercase;
+  /* Text style for "S, ign In" */
+  letter-spacing: 1.1px;
+}
+
+.devider {
+  /* Style for "Divider" */
+  width: 1400px;
+  height: 1px;
+  background-color: #f0f2f7;
+}
+
+
+.placeholder {
+  height: 56px;
+  box-sizing: border-box;
+
+  /* border: solid #000; */
+  /* border-width: 1 0px; */
+  /* background-color: #858b9c; */
+  display: flex;
+
+  margin-left: 115px;
+  width: 1400px;
+  /* height: 50px; */
+}
+
+.links {
+  border: solid #f0f2f7;
+  /* border-right: 1px; */
+  border-width: 0px 1px 0px 0px;
+  width: 1px;
+
+  /* border-width: 1 0px; */
+  /* background-color: green; */
+  width: 936px;
+  display: flex;
+  list-style-type: none;
+  margin-left: 0px;
+}
+
+.links li {
+  display: inline;
+  margin: auto;
+
+  /* padding-top: 24px; */
+  /* padding-bottom: 24px; */
+  /* height: 9px; */
+  color: #b9bed1;
+  font-family: Montserrat;
+  font-size: 11px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-right: 30px;
+  /* Text style for "T, op Sale" */
+  letter-spacing: 1.1px;
+}
+
+.links li:last-child {
+  margin-left: auto;
+}
+
+.links li:first-child {
+  margin-left: 0px;
+}
+
+.search {
+  padding-left: 21px;
+  padding-top: 22px;
+  padding-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  /* display: flex */
+}
+
+.search input::placeholder {
+  /* Style for "I’m lookin" */
+  /* width: 112px; */
+  height: 14px;
+  color: #a1a8bd;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  /* line-height: 24px; */
+}
+
+.search img {
+  /* Style for "I’m lookin" */
+  /* width: 112px; */
+  margin-right: 13px;
+  width: 13px;
+  height: 13px;
+  /* line-height: 24px; */
+}
+
+.banner {
+  width: 1400px;
+  height: 500px;
+  /* background-color: blueviolet; */
+  /* background: url('./images/banner.png'); */
+  background-image: url("../images/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 103px;
+  padding-left: 313px;
+}
+
+.banner h1 {
+  /* box-sizing: border-box; */
+
+  width: 306px;
+  height: 86px;
+  color: #ffffff;
+  font-family: "Montserrat - Black";
+  font-size: 42px;
+  font-weight: 400;
+  margin-bottom: 34px;
+}
+
+.banner p {
+  width: 461px;
+  height: 65px;
+  color: #ffffff;
+  font-family: "Crimson Text - Roman";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 64px;
+}
+
+.buy-now {
+  width: 165px;
+  height: 42px;
+  /* box-shadow: 0 20px 40px rgba(168, 173, 187, 0.62); */
+  border-radius: 21px;
+  border-color: transparent;
+  background-color: #2754eb;
+  color: white
+}
+
+.sort-main-container {
+  background-color: #e4e5e7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.filter-container {
+  width: 1170px;
+  /* height: 56px; */
+  border-radius: 5px;
+  /* background-color: grey; */
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.product-container {
+  width: 870px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: red;
+  position: relative;
+
+}
+
+.product {
+  width: 270px;
+  margin: 0px 30px 30px 0px;
+  padding: 35px;
+  background-color: #ffffff;
+  /* box-sizing: border-box; */
+  /* width: 270px; */
+  /* flex: 0 0 33%; */
+  /* flex-basis: 33.33%; */
+  /* height: 380px; */
+  /* border-radius: 5px; */
+
+
+
+
+
+
+  color: #343e5c;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  font-size: 14px;
+  font-weight: 400;
+  /* margin-right: 29px; */
+  
+  /* background-color: #2754eb; */
+}
+
+.product:nth-child(3n+1) {
+  background-color: green;
+  /* flex-basis: 25%; */
+  /* width: 300%; */
+  /* padding: 0px; */
+  /* width: 50px; */
+  margin-right: 0px;
+}
+
+.product:last-child {
+  /* margin: 10px 10px 10px 10px; */
+  /* padding: 35px; */
+  /* background-color: #ffffff; */
+  /* box-sizing: border-box; */
+  /* width: 270px; */
+  /* flex: 0 0 33%; */
+  /* height: 380px; */
+  /* border-radius: 5px; */
+}
+
+.product img {
+  margin-bottom: 29px;
+}
+
+.product h3 {
+  width: 118px;
+  height: 16px;
+  color: #1c1e23;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0 auto;
+  /* margin-bottom: 22px; */
+
+}
+
+.product h4 {
+  margin-bottom: 16px;
+  text-align: center;
+  /* margin: 0 auto; */
+}
+
+.product h5 {
+  margin: 0 auto;
+  text-align: center;
+
+  /* margin-bottom: 29px; */
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+
+
+.left-panel {
+  /* Style for "Placeholde" */
+  width: 270px;
+  height: 420px;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+.test {
+  /* width: 270px;
+  height:300px;
+  background-color: blue;
+  position: absolute;
+  top: 0px;
+  right:0px; */
+}
+
+
+
+
+
+
+
+
+.flex-grid {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.flex-grid-item {
+	height: 80px;
+	flex-grow: 1;
+	flex-shrink: 0;
+	flex-basis: 33.3333%;
+	flex-basis: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.blank {
+	height: 0;
+}
+
+/* colors by clrs.cc*/
+.flex-grid-item:nth-child(1)  {background-color: #001f3f; color: white;}
+.flex-grid-item:nth-child(2)  {background-color: #0074D9; color: white;}
+.flex-grid-item:nth-child(3)  {background-color: #7FDBFF;}
+.flex-grid-item:nth-child(4)  {background-color: #39CCCC;}
+.flex-grid-item:nth-child(5)  {background-color: #3D9970; color: white;}
+.flex-grid-item:nth-child(6)  {background-color: #2ECC40;}
+.flex-grid-item:nth-child(7)  {background-color: #01FF70;}
+.flex-grid-item:nth-child(8)  {background-color: #FFDC00;}
+.flex-grid-item:nth-child(9)  {background-color: #FF851B;}
+.flex-grid-item:nth-child(10) {background-color: #FF4136; color: white;}
+.flex-grid-item:nth-child(11) {background-color: #85144b; color: white;}
+.flex-grid-item:nth-child(12) {background-color: #F012BE; color: white;}
+.flex-grid-item:nth-child(13) {background-color: #B10DC9; color: white;}
+.flex-grid-item:nth-child(14) {background-color: #111; color: white;}
+.flex-grid-item:nth-child(15) {background-color: #aaa;}
+.flex-grid-item:nth-child(16) {background-color: #ddd;}
